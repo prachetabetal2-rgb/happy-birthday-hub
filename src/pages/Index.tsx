@@ -1,6 +1,7 @@
 import { Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Confetti from "@/components/Confetti";
+import PhotoAlbum from "@/components/PhotoAlbum";
 import hero from "@/assets/hero.jpg";
 
 const reasons = [
@@ -71,6 +72,8 @@ const Index = () => {
           </p>
         </div>
       </section>
+
+      <PhotoAlbum />
 
       {/* REASONS */}
       <section className="relative z-10 px-6 py-24">
